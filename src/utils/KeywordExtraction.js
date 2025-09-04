@@ -22,7 +22,7 @@ exports.getKeywordsFromAI = async (jobPosition) => {
       },
     ],
     temperature: 0.3,
-    max_completion_tokens: 100,
+    max_tokens: 100,
   });
 
   // Correct field to access in chat API response
