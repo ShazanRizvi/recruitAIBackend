@@ -49,6 +49,7 @@ exports.calculateScoreWithAI = async (resumeFile, jobPosition) => {
 
 
   return {
+    jobPosition: jobPosition,
     score: score,
     matchedKeywords: matchedKeywords,
     missingKeywords: missingKeywords,

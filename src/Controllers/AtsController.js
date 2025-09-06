@@ -22,7 +22,7 @@ exports.scoreResumeByPosition = async (req, res) => {
       resumeFile,
       jobPosition
     );
-    res.json(result);
+    res.status(200).json({ result });
   } catch (error) {
     res
       .status(500)
